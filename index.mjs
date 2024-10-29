@@ -4,7 +4,7 @@
 // // Create Redis client and log connection
 // const redis = new Redis({
 //     host: '',
-//     port: 16822,
+//     port: '',
 //     password: '',
 // });
 
@@ -110,9 +110,9 @@
 
 // // Create Redis client and log connection
 // const redis = new Redis({
-//     host: 'redis-16822.c264.ap-south-1-1.ec2.redns.redis-cloud.com',
+//     host: '',
 //     port: 16822,
-//     password: 'yicgb9lJLSnO7SujSaGU6GD0E8wz3QQs', // Replace with your actual password
+//     password: '', // Replace with your actual password
 // });
 
 // // Log Redis connection status
@@ -241,9 +241,9 @@ import Redis from 'ioredis';
 
 // Create Redis client and log connection
 const redis = new Redis({
-    host: 'redis-16822.c264.ap-south-1-1.ec2.redns.redis-cloud.com',
-    port: 16822,
-    password: 'yicgb9lJLSnO7SujSaGU6GD0E8wz3QQs', // Replace with your actual password
+    host: '',
+    port: '',
+    password: '', // Replace with your actual password
 });
 
 // Log Redis connection status
